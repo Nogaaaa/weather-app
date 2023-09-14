@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="weather__header">
+      <form class="weather__search">
+        <input type="text" placeholder="Search for a city..." class="weather__searchform">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+      <div class="weather__units">
+        <span class="weather__units_celsius">&#176C</span>
+        <span class="weather__units_fahrenheit">&#176F</span>
+      </div>
+    </div>
+
+    <div class="weather__body">
+      <h1 class="weather__city"></h1>
+    </div>
+
+    <div class="weather__datetime">
+    </div>
+
+    <div class="weather__forecast">
+    </div>
+
+    <div class="weather__icon">
+    </div>
+
+    <p class="weather__temperature"></p>
+
+    <div class="weather__minmax">
+    </div>
+
+    <div class="weather__info">
+      <!-- Separate boxes for Real Feel, Humidity, Wind, and Pressure -->
+      <div class="weather__box">
+        <i class="fas fa-temperature-full"></i>
+        <p class="weather__label">Real Feel</p>
+        <p class="weather__Realfeel"></p> <!-- Corrected class name -->
+      </div>
+      <div class="weather__box">
+        <i class="fas fa-droplet"></i>
+        <p class="weather__label">Humidity</p>
+        <p class="weather__Humidity"></p> <!-- Corrected class name -->
+      </div>
+      <div class="weather__box">
+        <i class="fas fa-wind"></i>
+        <p class="weather__label">Wind</p>
+        <p class="weather__Wind"></p> <!-- Corrected class name -->
+      </div>
+      <div class="weather__box">
+        <i class="fas fa-gauge-high"></i>
+        <p class="weather__label">Pressure</p>
+        <p class="weather__Pressure"></p> <!-- Corrected class name -->
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e467c9d9d9.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </div>
+</body>
+</html>
+
+
+
